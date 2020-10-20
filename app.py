@@ -26,7 +26,7 @@ while True:
 
   if counter == 0:
     
-      output = "Sorry I don't really understand. Please use different words?"
+      output = "Sorry I don't really understand. Please explain more words?"
 
   elif counter == 1:
     
@@ -44,7 +44,7 @@ while True:
       encouragement += encouragement_list[i] + ", "
     encouragement += "and " + encouragement_list[-1]
 
-    output = "It seems that you are feeling quite " + feelings + ". Please always remember "+ encouragement + "! Hope you feel better :)"
+    output = " you are feeling quite " + feelings + ",arent you Please always remember "+ encouragement + "! Hope you feel better,king! :)"
 
   print()
   print(output)
